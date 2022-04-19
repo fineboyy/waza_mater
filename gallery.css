@@ -111,112 +111,7 @@ p, span, i, a, li {
     border-bottom: 3px solid white;
 }
 
-
-/* Hero Area Begins Here */
-
-.hero {
-    height: 70vh;
-    position: relative;
-}
-
-
-.hero-bg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-image: url('./images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-shadow {
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-
-}
-
-.hero-text {
-    margin-top: 10rem;
-    color: white;
-}
-
-.hero-text h1, .hero-text h2 {
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.hero-text h2 {
-    font-size: 1.8rem;
-}
-.hero-text h1 {
-    font-size: 2.5rem;
-}
-
-.hero-text p {
-    max-width: 800px;
-    font-size: 1.2rem;
-}
-
-/* Welcome Section Starts Here */
-
-.welcome-section {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-.image-side {
-    height: 450px;
-    width: 800px;
-    background-color: rgb(9, 9, 79);
-    margin-right: 2rem;
-
-    position: relative;
-}
-
-.text-side h1 {
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-}
-
-.text-side h2 {
-    margin-bottom: 0;
-    font-size: 2rem;
-}
-
-.text-side p, .text-side li {
-    font-size: 0.9rem;
-
-}
-
-.text-side .p {
-    font-weight: bold;
-}
-
-.img-bg {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    left: 15px;
-    bottom: 15px;
-
-    background-image: url('./images/students.jpg');
-    background-size: cover;
-    background-position: center;
-}
+/* Programs Section Starts */
 
 
 .programs-section {
@@ -233,58 +128,43 @@ p, span, i, a, li {
 
 
 .program-card {
-    /* height: 200px; */
-    width: 250px;
-    border-radius: 8px;
+    height: 350px;
+    width: 450px;
+    border-radius: 26px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1.3rem;
-    background-color: white;
-
-    text-align: left;
     margin-bottom: 2.5rem;
+
+
+    background-color: darkblue;
+    background-size: cover;
+    background-position: center;
 }
 
-.program-card h2 {
-    margin-bottom: 0;
-    color: rgba(0, 0, 0, 0.8);
+.gallery-card1 {
+    background-image: url('./images/hero-bg.jpg');
 }
-
-.program-card p {
-    font-size: 0.9rem;
-    margin: 0;
+.gallery-card2 {
+    background-image: url('./images/dancer.jpg');
+}
+.gallery-card3 {
+    background-image: url('./images/students.jpg');
+}
+.gallery-card4 {
+    background-image: url('./images/crest.jpg');
+}
+.gallery-card5 {
+    background-image: url('./images/cheque.jpg');
+}
+.gallery-card6 {
+    background-image: url('./images/panorama.jpg');
 }
 
 .programs {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 0 30px;
 }
 
-#news {
-    background-color: white;
-}
-
-#news-card {
-    padding: 0.3rem;
-    border-radius: 1px;
-    width: 300px;
-}
-
-.news-img {
-    height: 200px;
-    width: 300px;
-    background-size: cover;
-}
-
-.news-img1 {
-    background-image: url('./images/mzvee.jpg');
-}
-.news-img2 {
-    background-image: url('./images/cheque.jpg');
-}
-.news-img3 {
-    background-image: url('./images/awards.jpg');
-}
 
 
 
